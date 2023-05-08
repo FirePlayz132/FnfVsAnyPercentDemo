@@ -2,139 +2,141 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
+				1,
+				-125
 			],
 			"loop": false,
-			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				-30
-			],
-			"loop": false,
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
+			"indices": [],
+			"name": "Mario Idle"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				54,
+				-50
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
+			"anim": "Hey",
+			"indices": [],
+			"name": "Mario Star"
+		},
+		{
+			"offsets": [
+				30,
+				-140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mario Forward"
+		},
+		{
+			"offsets": [
 				10,
-				11,
-				12,
-				12
+				-43
 			],
-			"name": "Dad idle dance"
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mario Fire"
 		},
 		{
 			"offsets": [
-				-9,
-				10
+				58,
+				-67
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mario Kick"
+		},
+		{
+			"offsets": [
 				14,
-				15
+				-91
 			],
-			"name": "Dad Sing Note LEFT"
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mario LongJump"
+		},
+		{
+			"offsets": [
+				120,
+				-83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Oof",
+			"indices": [],
+			"name": "Mario Oof"
 		},
 		{
 			"offsets": [
 				0,
-				27
+				-55
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"anim": "Up",
+			"indices": [],
+			"name": "Mario Up"
 		},
 		{
 			"offsets": [
-				-6,
-				50
+				0,
+				-19
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
+			"anim": "jump",
+			"indices": [],
+			"name": "Mario Jump"
+		},
+		{
+			"offsets": [
+				276,
+				-64
 			],
-			"name": "Dad Sing Note UP"
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "Mario 1Attack"
+		},
+		{
+			"offsets": [
+				-2,
+				-120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "here",
+			"loop": false,
+			"name": "Mario Herewego"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/DADDY_DEAREST",
 	"position": [
-		0,
-		0
+		200,
+		-10
 	],
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		255,
+		45,
+		50
 	],
 	"camera_position": [
-		0,
+		-1690,
 		0
 	],
 	"sing_duration": 6.1,
